@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Quantico:400,700');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -61,4 +63,23 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
   font-size: 62.5%;
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Quantico', sans-serif;
+  font-size: 2rem;
+  color: #1A1114;
+}
+
+h3 {
+  font-family: 'Quantico', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #4B4346;
+  margin-top: .5rem;
 }

@@ -3,12 +3,10 @@ import React from 'react';
 const StarWarsCharacter = props => {
 
     return(
-        <div>
-           <li>
+           <li className = "individual-character">
            <h2>Name: {props.starWarsCharacter.name}</h2>
            <h3>Birth Year: {props.starWarsCharacter.birth_year}</h3>
-           </li> 
-        </div>
+           </li>
     );
 }
 
