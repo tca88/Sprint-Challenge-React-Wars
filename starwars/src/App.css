@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Quantico:400,700');
+
 .App {
   text-align: center;
   margin: 0 auto;
@@ -13,5 +15,50 @@
 .Header {
   color: #3D75AB;
   text-shadow: 1px 1px 5px #fff;
+  font-family: 'Audiowide', cursive;
 }
 /* write your parent styles in here for your App.js */
+
+.pagination-buttons {
+  margin-top: 2rem;
+}
+
+.pagination-button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Quantico', sans-serif;
+  font-size: 1rem;
+  color: white;
+  box-shadow: 2px 2px 8px rgba(29, 29, 29, 0.5);
+  background: #B64517;
+
+}
+
+.pagination-button:hover {
+  background: white;
+  color: #B64517;
+  box-shadow: 2px 2px 8px rgba(182, 69, 23, 0.5);
+  cursor: pointer;
+}
+
+.pagination-button:focus {
+  outline: 0;
+}
+
+.pagination-button.disabled {
+  background: #C8CED5;
+  color: #9BA0A8;
+}
+
+.pagination-button.disabled:hover {
+  box-shadow: 2px 2px 8px rgba(29, 29, 29, 0.5);
+  cursor: default;
+}
+
+.pagination-button:first-child {
+  margin-right: 1rem;
+}
