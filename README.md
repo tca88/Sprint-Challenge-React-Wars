@@ -26,11 +26,31 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    **Answer**
+
+    ReactJS is a JavaScript UI library used for building applications through building UI components. One problem it solves is making it easier to interact with the DOM API, by having a Virtual DOM, as that DOM acts as an agent between the actual browser and us as developers. With the virtual DOM, using our components built in React, we are able to pass information to the virtual DOM on which elements should have access to which data. With this, we have a way to check what the DOM is representing and when something changes, React makes it possible to make those changes in the least amount of steps. It is able to handle dynamic data through the virtual DOM and helps render large amounts of data to create a scalable UI.
+
+    React also makes it easier to build UI elements through the use of reusable components that help build multiple User Interfaces. Inputs into these components come in the form of “States” and “Props”. React also allows us to hold data that can change over time in a private state, which is really important when working with APIs.
+  
+
 - [ ] What does it mean to _think_ in react?
+
+    **Answer**
+
+    Thinking in React is about the thought process of building an application in React, and how to approach the flow of data in order to build an application. For example, first, you would want to have a mockup of the application, and think about how to break down the UI into a component hierarchy, then build a static, MVP of it, and figure out where the state should live (which component owns the state).
 
 - [ ] Describe state.
 
+    **Answer**
+
+    State is known as the heart of a React application, as it’s the data that our components can hold on to and pass around to other components. When states update, so will our components, making them reactive. States are also mutable and can change, through the use of setState. Class components have the ability to have states (SMART components), but functional components do not (DUMB).
+
 - [ ] Describe props.
+
+    **Answer**
+
+    When passing states around from one component to another, that’s when we use props (known as the blood of a React application). Props are object literals with properties and key value pairs, and also an argument that a functional component can receive. Props, as opposed to states, are immutable and you cannot change their assignments, but you can assign them top down (for example, parent components to child components). 
+
 
 ## Project Set Up
 

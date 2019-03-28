@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Quantico:400,700');
+
+.character-information-container {
+    margin-top: 2rem;
+}
+
+.individual-character {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1.5px solid #1A1114;
+    background: #D8DEE4;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
